@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Bin`~` abd `~`</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+          <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>  
+            <div class="logo">
+              <h1>Bin`~` abd `~`</h1>
+            </div>
+            <div class="menu-items">
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#apropos">À propos</a></li>
+              <li><a href="#projects">Portfolio</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a class="contact" href="#">Contact</a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+
+    <div class="navbar1"></div>
+
+    <header>
+        <div class="header">
+            <h3></h3>
+            <h3>Hello, moi c'est Bouna Bin Abdallah <br> Je suis </h3><br>
+            <span>Developpeur <br> logiciels <br> Fullstack.</span>
+        </div>
+        <div class="btn-projects">
+            <a href="https://github.com/BounAbdallah" target="_blank" rel="noopener noreferrer">voir plus de projets</a>
+        </div>
+        <div class="social">
+            <div class="reseau">
+                <iconify-icon icon="mdi:github" style="color: #4ca1af;" width="50" height="50"></iconify-icon>
+            </div>
+            <div class="reseau">
+                <iconify-icon icon="mingcute:linkedin-fill" style="color: #4ca1af;" width="50" height="50"></iconify-icon>
+
+            </div>
+            <div class="reseau">
+                <iconify-icon icon="ri:instagram-fill" style="color: #4ca1af;" width="50" height="50"></iconify-icon>
+            </div>
+            <div class="reseau">
+                <iconify-icon icon="ic:baseline-discord" style="color: #4ca1af;" width="50" height="50"></iconify-icon>
+            </div>
+        </div>
+    </header>
+<section>
+
+    <div class="apropos" id="apropos">
+        <div class="image-content">
+            <img src="assets/images/moi.png" alt="">
+            <div class="division1"></div>
+
+        </div>
+        <div class="texte-contente">
+            <h1>A propos de moi :</h1>
+            <h2>Je m'appelle Bouna Bin Abdallah Drame,<br>
+            j'ai 22 ans et je suis un développeur Full Stack  basé au Sénégal. <br>
+            Passionné par la technologie depuis un jeune âge, j'ai choisi la voie de l'autodidacte pour ma carrière de développeur.</h2><br>
+            <div id="text">
+            <h2>Mon parcours :</h2>
+            <h3>En tant qu'autodidacte, j'ai consacré du temps à perfectionner mes compétences en développement web, en commençant par les bases du HTML, CSS, et JavaScript . Avec persévérance et détermination, j'ai rapidement élargi mes compétences pour devenir un développeur Full Stack compétent. Je me suis immergé dans le monde de la programmation côté serveur, maîtrisant des technologies telles que Node.js et Express, tout en continuant à perfectionner mon expertise en développement frontend avec des frameworks comme React.</h3>
+            <h2>Passionné et engagé :</h2>
+            <h3>Je suis passionné par l'apprentissage continu, et je reste constamment à l'affût des nouvelles tendances et technologies dans le domaine du développement web. Je crois en la puissance de la technologie pour résoudre des problèmes concrets et améliorer la vie des gens. En tant que développeur, je m'efforce de créer des solutions innovantes et fonctionnelles pour répondre aux besoins de mes clients et des utilisateurs finaux.</h3>
+            <h2>Perspective internationale :</h2>
+            <h3>Bien que je sois sénégalais, je considère le monde entier comme mon terrain de jeu. La nature du développement web signifie que les frontières géographiques n'ont pas d'importance. Je suis ouvert aux opportunités de travailler avec des clients et des projets internationaux, apportant ma passion et mon expertise à des défis diversifiés.</h3>
+            <h2>En résumé, je suis un développeur Full Stack  autodidacte qui allie compétence technique, créativité en design, et un engagement inébranlable envers l'innovation. Je suis ravi de continuer à apprendre, à grandir et à contribuer au monde du développement web. Si vous cherchez un professionnel polyvalent pour votre prochain projet, n'hésitez pas à me contacter.</h2>
+            </div>
+            <div class="buton">
+                <button id="afficherBtn" onclick="afficherTexte()">Voir plus sur moi</button>
+                <button id="reduireBtn" onclick="reduireTexte()" style="display: none;">Réduire</button>
+    
+            </div>
+
+        </div>
+    </div>
+    <div class="portfolio">
+        <h1>Portfolio</h1>
+    </div>
+    <div class="portfolio-contente">
+        <div class="tabs">
+            <div class="tab" onclick="openTab('tab1')">Projet nº 1</div>
+            <div class="tab" onclick="openTab('tab2')">Projet nº 2</div>
+            <div class="tab" onclick="openTab('tab3')">Projet nº 3</div>
+            <div class="tab" onclick="openTab('tab4')">Projet nº 4</div>
+        </div>
+        
+          <div id="tab1" class="tab-content active">
+            <div class="project">
+                <div class="description-project">
+                    <h1>Description du projet <span>1</span> </h1>
+                    <h2>Nom du projet : </h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Eaque aliquam vel quo ullam nemo sequi veritatis porro <br> autem possimus debitis cumque ad officiis voluptatibus,<br> necessitatibus reprehenderit nulla illo repudiandae consectetur.</h3>                    
+                </div>
+                <div class="image-project">
+                    <img src="assets/images/rahmadelivery.png" alt="">
+                    <div class="decoration"></div>
+                </div>
+            </div>
+          </div>
+        
+          <div id="tab2" class="tab-content">
+            <div class="project">
+                <div class="image-project">
+                    <img src="assets/images/moi.png" alt="">
+                    <div class="decoration"></div>
+                </div>
+                <div class="description-project">
+                    <h1>Description du projet <span>2</span> </h1>
+                    <h2>Nom du projet : </h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Eaque aliquam vel quo ullam nemo sequi veritatis porro <br> autem possimus debitis cumque ad officiis voluptatibus,<br> necessitatibus reprehenderit nulla illo repudiandae consectetur.</h3>
+                </div>
+            </div>
+        </div>
+        
+          <div id="tab3" class="tab-content">
+            <div class="project">
+                <div class="description-project">
+                    <h1>Description du projet <span>3</span> </h1>
+                    <h2>Nom du projet : </h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Eaque aliquam vel quo ullam nemo sequi veritatis porro <br> autem possimus debitis cumque ad officiis voluptatibus,<br> necessitatibus reprehenderit nulla illo repudiandae consectetur.</h3>
+                </div>
+                <div class="image-project">
+                    <img src="assets/images/moi.png" alt="">
+                    <div class="decoration"></div>
+                </div>
+            </div>          
+        </div>
+        <div id="tab4" class="tab-content">
+            <div class="project">
+                <div class="image-project">
+                    <img src="assets/images/moi.png" alt="">
+                    <div class="decoration"></div>
+                </div>
+                <div class="description-project">
+                    <h1>Description du projet <span>4</span> </h1>
+                    <h2>Nom du projet : </h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Eaque aliquam vel quo ullam nemo sequi veritatis porro <br> autem possimus debitis cumque ad officiis voluptatibus,<br> necessitatibus reprehenderit nulla illo repudiandae consectetur.</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects" id="projects">
+           
+        </div>
+    </div>
+    <div class="btn-projects">
+        <a href="https://github.com/BounAbdallah" target="_blank" rel="noopener noreferrer">voir plus de projets</a>
+    </div>
+
+</section>
+<section class="section-competence">
+    <h1>Mes compétences en développement web & web mobil</h1>
+    <div class="competence">
+        <div class="tabs">
+            <div class="tab" onclick="openTab('tab01')">compétence nº 1</div>
+            <div class="tab" onclick="openTab('tab02')">compétence nº 2</div>
+            <div class="tab" onclick="openTab('tab03')">compétence nº 3</div>
+            <div class="tab" onclick="openTab('tab04')">compétence nº 4</div>
+        </div>
+    </div>
+
+    <div id="tab01" class="tab-content">
+        <div class="project">
+            <div class="image-project">
+                <img src="assets/images/configuration.png" alt="">
+                <div class="decoration"></div>
+            </div>
+            <div class="description-project">
+                <h1><span> compétence  nº 1</span> </h1>
+                <h2> Installer et configurer son environnement de travail en fonction du projet web ou web mobile: </h2><br>
+                <h3> Je suis capable de configurer efficacement mon environnement de développement en fonction des exigences spécifiques d'un projet web ou web mobile. En assurant une intégration transparente, je m'assure que mon environnement est optimisé pour une productivité maximale.</h3>
+            </div>
+        </div>
+    </div>
+    <div id="tab02" class="tab-content">
+        <div class="project">
+            <div class="description-project">
+                <h1><span> compétence nº 2</span> </h1>
+                <h2>Maquetter des interfaces utilisateur web ou web mobile : </h2>
+                <h3>Je suis compétent dans la création de maquettes d'interfaces utilisateur web et mobile, traduisant de manière précise les concepts visuels en prototypes interactifs. Mon expertise me permet de garantir une expérience utilisateur optimale dès les premières étapes du développement.</h3>
+            </div>
+            <div class="image-project">
+                <img src="assets/images/maquette.png" alt="">
+                <div class="decoration"></div>
+            </div>
+           
+        </div>
+    </div>
+    <div id="tab03" class="tab-content">
+        <div class="project">
+            <div class="image-project">
+                <img src="assets/images/user-interface.png" alt="">
+                <div class="decoration"></div>
+            </div>
+            <div class="description-project">
+                <h1><span> compétence nº 3</span> </h1>
+                <h2>Réalisation des interfaces utilisateur statiques web ou web mobile </h2><br>
+                <h3>Je concrétise mes concepts en développant des interfaces utilisateur web ou mobile statiques, assurant une conception esthétique et fonctionnelle. Mon attention particulière aux détails se reflète dans des interfaces intuitives et attrayantes.</h3>
+            </div>
+        </div>
+    </div>
+    <div id="tab04" class="tab-content">
+        <div class="project">
+            <div class="description-project">
+                <h1><span> compétence  nº 4</span> </h1>
+                <h2>4: Développer la partie dynamique des interfaces utilisateur web ou web mobile: </h2><br>
+                <h3>En tant que développeur fullstack, je code de manière experte la partie dynamique des interfaces utilisateur web et mobile. Je m'assure que les fonctionnalités interactives répondent aux besoins du projet tout en garantissant une performance optimale.</h3>
+            </div>
+            <div class="image-project">
+                <img src="assets/images/dynamique.png" alt="">
+                <div class="decoration"></div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="competence">
+        <div class="tabs">
+            <div class="tab" onclick="openTab('tab001')">compétence nº 5</div>
+            <div class="tab" onclick="openTab('tab002')">compétence nº 6</div>
+            <div class="tab" onclick="openTab('tab003')">compétence nº 7</div>
+            <div class="tab" onclick="openTab('tab004')">compétence nº 8</div>
+        </div>
+    </div>
+
+    <div id="tab001" class="tab-content">
+        <div class="project">
+            <div class="image-project">
+                <img src="assets/images/base-de-donnée.png" alt="">
+                <div class="decoration"></div>
+            </div>
+            <div class="description-project">
+                <h1><span> compétence  nº 5</span> </h1>
+                <h2>Mettre en place une base de données relationnelle: </h2><br>
+                <h3>Je maitrise l'installation et la configuration de bases de données relationnelles, assurant une gestion efficace des données. Je crée des structures de base solides, garantissant la stabilité et la cohérence des données.</h3>
+            </div>
+        </div>
+    </div>
+    <div id="tab002" class="tab-content">
+        <div class="project">
+            <div class="description-project">
+                <h1><span> compétence  nº 6</span> </h1>
+                <h2> Développer des composants d’accès aux données SQL et NoSQL : </h2><br>
+                <h3> Je développe avec aisance des composants d'accès aux données, aussi bien pour les bases de données SQL que NoSQL. Cela inclut la création de requêtes optimisées pour garantir un accès efficace et sécurisé aux données.</h3>
+            </div>
+            <div class="image-project">
+                <img src="assets/images/composant-acces-donnée.png" alt="">
+                <div class="decoration"></div>
+            </div>
+           
+        </div>
+    </div>
+    <div id="tab003" class="tab-content">
+        <div class="project">
+            <div class="image-project">
+                <img src="assets/images/composant-metier-server.png" alt="">
+                <div class="decoration"></div>
+            </div>
+            <div class="description-project">
+                <h1><span> compétencenº 7</span> </h1>
+                <h2>Développer des composants métier coté serveur : </h2><br>
+                <h3> Mon expertise inclut le développement de composants métier côté serveur, assurant la logique fonctionnelle robuste de l'application. Je crée des solutions efficaces et évolutives pour répondre aux besoins spécifiques du projet.</h3>
+            </div>
+        </div>
+    </div>
+    <div id="tab004" class="tab-content">
+        <div class="project">
+            <div class="description-project">
+                <h1><span> compétencenº 8</span> </h1>
+                <h2>Documenter le déploiement d’une application dynamique web ou web mobile : </h2><br>
+                <h3>Je documente de manière approfondie le déploiement d'applications web ou mobiles dynamiques. En fournissant des instructions claires et complètes, je facilite la compréhension et la maintenance ultérieure du système.</h3>
+            </div>
+            <div class="image-project">
+                <img src="assets/images/deploiment.png" alt="">
+                <div class="decoration"></div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="vide"></div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
