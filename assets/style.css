@@ -375,14 +375,19 @@ section{
 
 .btn-projects{
     display: flex;
-    justify-content: flex-start;
+    
     /* vertical-align: middle; */
+}
+.btn-projects h1{
+  width: 500px;
+  height: 70px;
+  vertical-align: middle;
+
 }
 .btn-projects a{
   text-decoration: none;
-    margin-bottom: 50px;
-    width: 300px;
-    height: 60px;
+   
+    padding: 10px;
     font-size: 30px;
     color: aliceblue;
     cursor: pointer;
