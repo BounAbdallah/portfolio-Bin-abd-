@@ -728,7 +728,7 @@ width: 350px;
 .section-competence .description-project{
   margin-top: 90px;
   margin-bottom: 150px;
-  width: 250px;
+  width: 100%;
   border: 2px solid aliceblue;
   padding: 4px;
  
