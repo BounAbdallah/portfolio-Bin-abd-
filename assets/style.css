@@ -662,7 +662,7 @@ section{
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
-  width: 280px;
+  width:100%;
   background: #4CA1AF;
   background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
   background: linear-gradient(to right, #C4E0E5, #4CA1AF);
